@@ -6,4 +6,8 @@ public class PageObject {
     PageObject clickMenuItem() {
         return this;
     }
+
+    PageObject fillName(String name) {
+        return this;
+    }
 }
